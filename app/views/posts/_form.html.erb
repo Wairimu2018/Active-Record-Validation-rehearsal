@@ -1,0 +1,9 @@
+<%# simple form for posts %>
+<%= simple_form_for @post do |f| %>
+
+<%# errors %>
+<%= f.error_notification %>
+<%= f.input :title %>
+<%= f.input :body%>
+<%= f.submit %>
+<% end %>
